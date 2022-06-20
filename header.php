@@ -9,15 +9,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Discord Community</title>
-    <link rel="stylesheet" href="./design/reset.css" />
-    <!-- <link rel="stylesheet" href="./design/style.css" /> -->
+    <link rel="stylesheet" href="/design/reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
   </head>
 

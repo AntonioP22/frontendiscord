@@ -8,8 +8,6 @@
           }
         ?>
         
-  <!--- Leave this /body tag on all pages!!!-->
-  </body>
   <!---Leave ^ this /body tag on all pages!!!-->
 <?php
     include_once 'footer.php';
