@@ -1,9 +1,21 @@
-* {
-    font-family: 'Italiana', 'Helvetica', sans-serif;
+@font-face {
+    font-family: Comic Mono;
+    font-weight: normal;
+    src: url(./ComicMono.ttf);
+}
+
+@font-face {
+    font-family: Comic Mono;
+    font-weight: bold;
+    src: url(./ComicMono-Bold.ttf);
+}
+
+html {
+    font-family: "Comic Mono";
 }
 
 body {
-    background-color: grey;
+    background-color: lightgreen;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -11,13 +23,13 @@ body {
     flex-direction: column;
 }
 
-.breadcrumb a{
+.breadcrumb a {
     display: inline;
     text-decoration: none;
     font-size: larger;
 }
 
-.breadcrumb a + a:before {
+.breadcrumb a+a:before {
     padding: 4px;
     content: "~";
     color: black;
@@ -50,7 +62,7 @@ embed {
 
 embed:hover {
     cursor: pointer;
-    transform:scale(150%);
+    transform: scale(150%);
 }
 
 a,
@@ -66,7 +78,7 @@ a:hover {
 }
 
 .cont {
-    display: flex;    
+    display: flex;
 }
 
 .ing {
