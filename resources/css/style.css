@@ -16,4 +16,108 @@ html {
 
 body {
     background-color: red;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.breadcrumb a {
+    display: inline;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.breadcrumb a+a:before {
+    padding: 4px;
+    content: "~";
+    color: black;
+    font-weight: bolder;
+}
+
+.background-1 {
+    background-color: rgba(71, 59, 59, 0.282);
+    border-radius: 25px;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+hr {
+    width: 100px;
+}
+
+embed {
+    width: 35px;
+    height: auto;
+}
+
+embed:hover {
+    cursor: pointer;
+    transform: scale(150%);
+}
+
+a,
+footer {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+a:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.cont {
+    display: flex;
+}
+
+.ing {
+    text-align: left;
+    line-height: 1.5;
+}
+
+.list,
+.container-1 {
+    background-color: rgba(71, 59, 59, 0.282);
+    border-radius: 25px;
+    margin: 5px;
+    flex: 1 1 0%;
+}
+
+.step {
+    text-align: left;
+    line-height: 2;
+}
+
+.container-1,
+.container {
+    height: fit-content;
+}
+
+p,
+li,
+ol {
+    color: black;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+.container.list {
+    max-width: max-content;
+    padding-right: 5px;
 }
