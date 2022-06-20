@@ -1,123 +1,123 @@
 @font-face {
-    font-family: Comic Mono;
-    font-weight: normal;
-    src: url(./ComicMono.ttf);
+  font-family: Comic Mono;
+  font-weight: normal;
+  src: url(./ComicMono.ttf);
 }
 
 @font-face {
-    font-family: Comic Mono;
-    font-weight: bold;
-    src: url(./ComicMono-Bold.ttf);
+  font-family: Comic Mono;
+  font-weight: bold;
+  src: url(./ComicMono-Bold.ttf);
 }
 
 html {
-    font-family: "Comic Mono";
+  font-family: "Comic Mono";
 }
 
 body {
-    background-image: linear-gradient(to bottom, #f8f8f8, #140f0f);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  background-image: linear-gradient(to bottom right, #f8f8f8, #140f0f);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .breadcrumb a {
-    display: inline;
-    text-decoration: none;
-    font-size: larger;
+  display: inline;
+  text-decoration: none;
+  font-size: larger;
 }
 
-.breadcrumb a+a:before {
-    padding: 4px;
-    content: "~";
-    color: black;
-    font-weight: bolder;
+.breadcrumb a + a:before {
+  padding: 4px;
+  content: "~";
+  color: black;
+  font-weight: bolder;
 }
 
 .background-1 {
-    background-color: rgba(71, 59, 59, 0.282);
-    border-radius: 25px;
-    width: 400px;
-    height: auto;
-    justify-content: center;
+  background-color: rgba(71, 59, 59, 0.282);
+  border-radius: 25px;
+  width: 400px;
+  height: auto;
+  justify-content: center;
 }
 
 img {
-    width: 300px;
-    height: auto;
-    margin-bottom: 15px;
-    border-radius: 20px;
+  width: 300px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 20px;
 }
 
 hr {
-    width: 100px;
+  width: 100px;
 }
 
 embed {
-    width: 35px;
-    height: auto;
+  width: 35px;
+  height: auto;
 }
 
 embed:hover {
-    cursor: pointer;
-    transform: scale(150%);
+  cursor: pointer;
+  transform: scale(150%);
 }
 
 a,
 footer {
-    color: black;
-    font-weight: bold;
-    font-size: large;
+  color: black;
+  font-weight: bold;
+  font-size: large;
 }
 
 a:hover {
-    cursor: pointer;
-    color: blue;
+  cursor: pointer;
+  color: blue;
 }
 
 .cont {
-    display: flex;
+  display: flex;
 }
 
 .ing {
-    text-align: left;
-    line-height: 1.5;
+  text-align: left;
+  line-height: 1.5;
 }
 
 .list,
 .container-1 {
-    background-color: rgba(71, 59, 59, 0.282);
-    border-radius: 25px;
-    margin: 5px;
-    flex: 1 1 0%;
+  background-color: rgba(71, 59, 59, 0.282);
+  border-radius: 25px;
+  margin: 5px;
+  flex: 1 1 0%;
 }
 
 .step {
-    text-align: left;
-    line-height: 2;
+  text-align: left;
+  line-height: 2;
 }
 
 .container-1,
 .container {
-    height: fit-content;
+  height: fit-content;
 }
 
 p,
 li,
 ol {
-    color: black;
-    font-weight: bold;
-    line-height: 1.5;
-    letter-spacing: 2px;
+  color: black;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 2px;
 }
 
 nav {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .container.list {
-    max-width: max-content;
-    padding-right: 5px;
+  max-width: max-content;
+  padding-right: 5px;
 }
