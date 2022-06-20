@@ -1,3 +1,19 @@
+@font-face {
+    font-family: Comic Mono;
+    font-weight: normal;
+    src: url(./ComicMono.ttf);
+}
+
+@font-face {
+    font-family: Comic Mono;
+    font-weight: bold;
+    src: url(./ComicMono-Bold.ttf);
+}
+
+html {
+    font-family: "Comic Mono";
+}
+
 body {
     background-color: red;
 }
