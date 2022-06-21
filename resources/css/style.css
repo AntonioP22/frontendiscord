@@ -26,30 +26,6 @@ body {
   flex-direction: column;
 }
 
-nav,
-a {
-  display: inline-block;
-  text-decoration: none;
-  font-size: larger;
-  margin-bottom: 10px;
-}
-
-nav,
-a + a:before {
-  padding: 4px;
-  content: "~";
-  color: black;
-  font-weight: bolder;
-}
-
-.background-1 {
-  background-color: rgba(71, 59, 59, 0.282);
-  border-radius: 25px;
-  width: 400px;
-  height: auto;
-  justify-content: center;
-}
-
 img {
   width: 300px;
   height: auto;
@@ -83,33 +59,6 @@ a:hover {
   color: blue;
 }
 
-.cont {
-  display: flex;
-}
-
-.ing {
-  text-align: left;
-  line-height: 1.5;
-}
-
-.list,
-.container-1 {
-  background-color: rgba(71, 59, 59, 0.282);
-  border-radius: 25px;
-  margin: 5px;
-  flex: 1 1 0%;
-}
-
-.step {
-  text-align: left;
-  line-height: 2;
-}
-
-.container-1,
-.container {
-  height: fit-content;
-}
-
 p,
 li,
 ol {
@@ -117,9 +66,4 @@ ol {
   font-weight: bold;
   line-height: 1.5;
   letter-spacing: 2px;
-}
-
-.container.list {
-  max-width: max-content;
-  padding-right: 5px;
 }
