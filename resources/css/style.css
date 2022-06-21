@@ -33,23 +33,20 @@ body {
 /* header  */
 
 header {
-<<<<<<< Updated upstream
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    border-bottom: 1px solid #292020;
-=======
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #292020;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem 1rem;
   background-color: #f5f5f5;
   border-bottom: 1px solid #292020;
->>>>>>> Stashed changes
 }
 
 .navbar-nav {
