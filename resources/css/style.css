@@ -78,7 +78,16 @@ header {
     border-radius: 15px;
     width: 60%;
     position: relative;
-    left: 0;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    justify-content: space-between;
 }
 
 
