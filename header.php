@@ -19,14 +19,13 @@ session_start();
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
 </head>
 
+<body>
 <div class="background-container">
 <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/moon2.png" alt="">
 <div class="stars"></div>
 <div class="twinkling"></div>
 <div class="clouds"></div>
 
-<body>
-<<<<<<< HEAD
   <nav>
     <ul class="navbar-nav">
       <li>
@@ -51,7 +50,6 @@ session_start();
   </nav>
 
   
-=======
   <header>
     <nav>
       <ul class="navbar-nav">
@@ -76,4 +74,3 @@ session_start();
       </ul>
     </nav>
   </header>
->>>>>>> bfcac288f783f2ab0a685e43e8b624463aaf69c2
