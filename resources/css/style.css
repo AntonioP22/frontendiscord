@@ -1,160 +1,55 @@
 /* fonts  */
 
 @font-face {
-    font-family: Comic Mono;
-    font-weight: bold;
-    src: url(./ComicMono-Bold.ttf);
+  font-family: Comic Mono;
+  font-weight: bold;
+  src: url(./ComicMono-Bold.ttf);
 }
-
 
 /* root elemets */
 
 * {
-    font-family: Comic Mono;
-    font-weight: normal;
-    src: url(./ComicMono.ttf);
+  font-family: Comic Mono;
+  font-weight: normal;
+  src: url(./ComicMono.ttf);
 }
 
 html {
-    font-family: "Comic Mono";
+  font-family: "Comic Mono";
 }
-
 
 /* header  */
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #292020;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #292020;
 }
 
 .navbar-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 /* main section */
 
 body {
-    height: 100vh;
-    background-color: #E9DAC1;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  height: 100vh;
+  background-color: #e9dac1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 embed {
-    width: 80px;
-    height: auto;
-    margin-bottom: 15px;
-    border-radius: 20px;
-}
-
-
-/* moving bg */
-
-@keyframes move-background {
-    from {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    to {
-        -webkit-transform: translate3d(1000px, 0px, 0px);
-    }
-}
-
-@-webkit-keyframes move-background {
-    from {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    to {
-        -webkit-transform: translate3d(1000px, 0px, 0px);
-    }
-}
-
-@-moz-keyframes move-background {
-    from {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    to {
-        -webkit-transform: translate3d(1000px, 0px, 0px);
-    }
-}
-
-@-webkit-keyframes move-background {
-    from {
-        -webkit-transform: translate3d(0px, 0px, 0px);
-    }
-    to {
-        -webkit-transform: translate3d(1000px, 0px, 0px);
-    }
-}
-
-.background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-    opacity: 0.5;
-}
-
-.stars {
-    background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: block;
-    z-index: 0;
-}
-
-.twinkling {
-    width: 10000px;
-    height: 100%;
-    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
-    background-size: 1000px 1000px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 2;
-    -moz-animation: move-background 70s linear infinite;
-    -ms-animation: move-background 70s linear infinite;
-    -o-animation: move-background 70s linear infinite;
-    -webkit-animation: move-background 70s linear infinite;
-    animation: move-background 70s linear infinite;
-}
-
-.clouds {
-    width: 10000px;
-    height: 100%;
-    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/clouds_repeat.png") repeat;
-    background-size: 1000px 1000px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 3;
-    -moz-animation: move-background 150s linear infinite;
-    -ms-animation: move-background 150s linear infinite;
-    -o-animation: move-background 150s linear infinite;
-    -webkit-animation: move-background 150s linear infinite;
-    animation: move-background 150s linear infinite;
-}
-
-img {
-    height: 70vh;
-    width: 70vh;
-    position: absolute;
-    z-index: 3;
-    right: 20px;
+  width: 80px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 20px;
 }

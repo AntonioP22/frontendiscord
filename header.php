@@ -19,8 +19,7 @@ session_start();
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
 </head>
 
-<body class="background-container stars twinkling clouds">
-  
+<body>
   <nav>
     <ul class="navbar-nav">
       <li>
