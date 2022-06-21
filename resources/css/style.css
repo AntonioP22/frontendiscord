@@ -81,11 +81,11 @@ header {
 }
 
 
-/* footer */
+/* footer  section */
 
 footer {
     display: flex;
-    position: relative;
+    position: absolute;
     bottom: 0;
     justify-content: space-between;
 }
