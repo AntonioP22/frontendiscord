@@ -46,7 +46,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    width: 96%;
+    width: 98%;
 }
 
 .navbar-nav {
@@ -87,7 +87,7 @@ header {
 
 /* footer  section */
 
-footer {
+--footer {
     height: 5%;
     display: flex;
     align-items: center;
