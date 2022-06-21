@@ -38,7 +38,7 @@ header {
 
 /* main section */
 
-/*body {
+body {
     height: 100vh;
     background-color: #E9DAC1;
     text-align: center;
@@ -47,7 +47,7 @@ header {
     align-items: center;
     flex-direction: column;
 }
-*/
+
 embed {
   width: 80px;
   height: auto;
