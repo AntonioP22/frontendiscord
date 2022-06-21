@@ -61,6 +61,10 @@ header {
     color: blue;
 }
 
+.navbar-nav li a:visited {
+    color: purple;
+}
+
 .navbar-nav li:hover a {
     text-decoration: none;
 }
