@@ -75,6 +75,10 @@ header {
 
 .mid-section {
     background-color: var(--mid-sect-);
+    border-radius: 15px;
+    width: 60%;
+    position: relative;
+    left: 0;
 }
 
 
