@@ -28,7 +28,9 @@ html {
 
 body {
     height: 100vh;
-    background-color: var(--bg-);
+    background: url('../../images/1371609387702.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     display: flex;
     justify-content: center;
