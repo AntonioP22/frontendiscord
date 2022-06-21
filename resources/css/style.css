@@ -50,10 +50,13 @@ header {
     align-items: center;
 }
 
-.navbar-nav li a {
-    color: blue;
+.navbar-nav li {
     list-style-type: none;
     padding: 0 5px;
+}
+
+.navbar-nav li {
+    color: blue;
 }
 
 .navbar-nav li:hover a {
