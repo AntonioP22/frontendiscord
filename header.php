@@ -21,6 +21,7 @@ session_start();
 
 <body>  
   <header>
+  <h1>Frontend Discord Community</h1>
     <nav>
       <ul class="navbar-nav">
         <li>
