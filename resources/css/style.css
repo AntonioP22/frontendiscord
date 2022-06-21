@@ -1,69 +1,43 @@
-* {
-  font-family: Comic Mono;
-  font-weight: normal;
-  src: url(./ComicMono.ttf);
-}
+/* fonts  */
 
 @font-face {
-  font-family: Comic Mono;
-  font-weight: bold;
-  src: url(./ComicMono-Bold.ttf);
+    font-family: Comic Mono;
+    font-weight: bold;
+    src: url(./ComicMono-Bold.ttf);
+}
+
+
+/* root elemets */
+
+* {
+    font-family: Comic Mono;
+    font-weight: normal;
+    src: url(./ComicMono.ttf);
 }
 
 html {
-  font-family: "Comic Mono";
+    font-family: "Comic Mono";
 }
 
+
+/* header  */
+
+
+/* main section */
+
 body {
-  height: 100vh;
-  background-image: linear-gradient(to bottom, #f38181, #95e1d3);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    height: 100vh;
+    background-color: #E9DAC1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 img {
-  width: 300px;
-  height: auto;
-  margin-bottom: 15px;
-  border-radius: 20px;
-}
-
-hr {
-  width: 100px;
-}
-
-embed {
-  width: 35px;
-  height: auto;
-}
-
-embed:hover {
-  cursor: pointer;
-  transform: scale(150%);
-}
-
-a,
-footer {
-  color: black;
-  font-weight: bold;
-  font-size: large;
-}
-
-a:hover {
-  cursor: pointer;
-  color: blue;
-}
-
-p,
-li,
-ol {
-  color: black;
-  font-weight: bold;
-  line-height: 1.5;
-  letter-spacing: 2px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 20px;
 }
