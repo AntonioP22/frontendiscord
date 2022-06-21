@@ -2,8 +2,8 @@
     include_once 'header.php';
 ?>
 <section>
-    <h1>Sign<h1>
-    <p>Up<p>
+    <h1>Sign</h1>
+    <p>Up</p>
     <form action="includes/signup.inc.php" method="post">
         <input type="text" name="name" placeholder="Full name...">
         <input type="text" name="email" placeholder="Email...">
@@ -40,8 +40,6 @@
 ?>
 
 </section>
-</body>
-
 <?php
     include_once 'footer.php';
 ?>

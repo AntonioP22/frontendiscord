@@ -2,8 +2,8 @@
     include_once 'header.php';
 ?>
 <section>
-    <h1>Test<h1>
-    <p>here<p>
+    <h1>Test</h1>
+    <p>here</p>
     <form action="includes/login.inc.php" method="post">
         <input type="text" name="uid" placeholder="Username/Email...">
         <input type="password" name="pwd" placeholder="Password...">
@@ -20,7 +20,6 @@
     }
 ?>
 </section>
-</body>
 <?php
     include_once 'footer.php';
 ?>

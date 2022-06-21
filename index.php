@@ -7,8 +7,6 @@
             echo "<p>You are logged in " . $_SESSION["userUid"] . "</p>";
           }
         ?>
-        
-  <!---Leave ^ this /body tag on all pages!!!-->
 <?php
     include_once 'footer.php';
 ?>
