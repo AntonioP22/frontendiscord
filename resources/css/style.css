@@ -84,7 +84,7 @@ header {
 /* footer  section */
 
 footer {
-    height: 8%;
+    height: 5%;
     display: flex;
     align-items: center;
     position: absolute;
@@ -96,5 +96,5 @@ footer {
 /* image */
 
 embed {
-    height: 60%;
+    height: 70%;
 }
