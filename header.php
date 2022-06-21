@@ -21,7 +21,7 @@
   </head>
 
   <body>
-    <nav>
+    <nav class="breadcrumb">
       <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="discover.php">About Us</a></li>
