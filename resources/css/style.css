@@ -26,13 +26,15 @@ body {
   flex-direction: column;
 }
 
-.breadcrumb a {
+nav,
+a {
   display: inline;
   text-decoration: none;
   font-size: larger;
 }
 
-.breadcrumb a + a:before {
+nav,
+a + a:before {
   padding: 4px;
   content: "~";
   color: black;
