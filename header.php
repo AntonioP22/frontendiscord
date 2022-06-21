@@ -19,9 +19,11 @@ session_start();
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
 </head>
 
-<body>  
+<body>
   <header>
-  <h1>Frontend Discord Community</h1>
+    <div>
+      <h1>Frontend Discord Community</h1>
+    </div>
     <nav>
       <ul class="navbar-nav">
         <li>
