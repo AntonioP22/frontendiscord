@@ -84,6 +84,7 @@ header {
 /* footer  section */
 
 footer {
+    height: 8%;
     display: flex;
     position: absolute;
     bottom: 0;
@@ -94,8 +95,5 @@ footer {
 /* image */
 
 embed {
-    width: 50px;
-    height: auto;
-    margin-bottom: 15px;
-    border-radius: 20px;
+    width: 100%;
 }
