@@ -50,11 +50,20 @@ header {
     align-items: center;
 }
 
+.navbar-nav li {
+    color: blue;
+    list-style-type: none;
+}
+
+.navbar-nav li:hover {
+    text-decoration: none;
+}
+
 
 /* image */
 
 embed {
-    width: 80px;
+    width: 50px;
     height: auto;
     margin-bottom: 15px;
     border-radius: 20px;
