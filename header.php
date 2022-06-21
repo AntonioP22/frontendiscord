@@ -26,7 +26,7 @@ session_start();
         <a href="index.php">Home</a>
       </li>
       <li>
-        <a href="#">Community Projects</a>
+        <a href="projects.php">Community Projects</a>
       </li>
       <li>
         <a href="discover.php">About Us</a>
