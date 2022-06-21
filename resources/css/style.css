@@ -20,6 +20,25 @@ html {
 
 /* header  */
 
+<<<<<<< HEAD
+=======
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #292020;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+>>>>>>> bfcac288f783f2ab0a685e43e8b624463aaf69c2
 /* main section */
 
 /*body {
@@ -33,6 +52,7 @@ html {
 }
 */
 embed {
+<<<<<<< HEAD
   width: 80px;
   height: auto;
   margin-bottom: 15px;
@@ -140,3 +160,10 @@ img {
   z-index: 3;
   right: 20px;
 }
+=======
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+>>>>>>> bfcac288f783f2ab0a685e43e8b624463aaf69c2
