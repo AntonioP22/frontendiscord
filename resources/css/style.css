@@ -1,55 +1,61 @@
 /* fonts  */
 
 @font-face {
-  font-family: Comic Mono;
-  font-weight: bold;
-  src: url(./ComicMono-Bold.ttf);
+    font-family: Comic Mono;
+    font-weight: bold;
+    src: url(./ComicMono-Bold.ttf);
 }
+
 
 /* root elemets */
 
 * {
-  font-family: Comic Mono;
-  font-weight: normal;
-  src: url(./ComicMono.ttf);
+    font-family: Comic Mono;
+    font-weight: normal;
+    src: url(./ComicMono.ttf);
 }
 
 html {
-  font-family: "Comic Mono";
+    font-family: "Comic Mono";
 }
 
-/* header  */
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  background-color: #f5f5f5;
-  border-bottom: 1px solid #292020;
-}
-
-.navbar-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 /* main section */
 
 body {
-  height: 100vh;
-  background-color: #e9dac1;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    height: 100vh;
+    background-color: #e9dac1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
+
+/* header  */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #292020;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* image */
+
 embed {
-  width: 80px;
-  height: auto;
-  margin-bottom: 15px;
-  border-radius: 20px;
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 20px;
 }
