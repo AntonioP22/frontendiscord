@@ -10,6 +10,7 @@
 /* root elemets */
 
 * {
+    color: var(--font-color-);
     font-family: Comic Mono;
     font-weight: normal;
     src: url(./ComicMono.ttf);
