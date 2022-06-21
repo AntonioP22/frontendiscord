@@ -15,7 +15,10 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to bottom, #f8f8f8, #140f0f) no-repeat;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #f8f8f8, #140f0f);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     display: flex;
     justify-content: center;
