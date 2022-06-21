@@ -1,6 +1,3 @@
-
-
-
 <footer>
   <p>
     Coded by the Frontend Discord Community
