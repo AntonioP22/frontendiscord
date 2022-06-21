@@ -19,6 +19,7 @@ html {
     font-family: "Comic Mono";
     --bg-: #e9dac1;
     --mid-sect-: #54BAB9;
+    --font-color-: #E9DAC1;
 }
 
 
@@ -79,6 +80,7 @@ header {
     width: 60%;
     position: relative;
     padding: 5%;
+    color: var(--font-color-);
 }
 
 
