@@ -2,8 +2,7 @@
     include_once 'header.php';
 ?>
 <section>
-    <h1>Test</h1>
-    <h1>here</h1>
+    <h1>Enter Login Info</h1>
     <form action="includes/login.inc.php" method="post">
         <input type="text" name="uid" placeholder="Username/Email...">
         <input type="password" name="pwd" placeholder="Password...">
