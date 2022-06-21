@@ -1,11 +1,5 @@
 
-<div class="showLogin">
-  <?php
-if (isset($_SESSION['userUid'])) {
-  echo "<p>You are logged in " . $_SESSION["userUid"] . "</p>";
-}
-?>
-</div>
+
 
 <footer>
   <p>
