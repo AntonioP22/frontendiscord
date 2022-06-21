@@ -28,7 +28,7 @@ body {
 
 nav,
 a {
-  display: inline;
+  display: inline-block;
   text-decoration: none;
   font-size: larger;
   margin-bottom: 10px;
