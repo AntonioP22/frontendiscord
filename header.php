@@ -22,7 +22,7 @@
 
   <body>
     <nav class="breadcrumb">
-      <ul>
+      <ul class="breadcrumb">
         <li><a href="index.php">Home</a></li>
         <li><a href="discover.php">About Us</a></li>
         <?php
