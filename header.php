@@ -16,13 +16,13 @@
       href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/resources/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/comic-mono@0.0.1/index.css">
+    <link rel="stylesheet" href="/resources/css/style.css">
   </head>
 
   <body>
     <nav class="breadcrumb">
-      <ul class="breadcrumb">
+      <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="discover.php">About Us</a></li>
         <?php

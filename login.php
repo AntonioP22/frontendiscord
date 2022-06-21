@@ -3,7 +3,7 @@
 ?>
 <section>
     <h1>Test</h1>
-    <p>here</p>
+    <h1>here</h1>
     <form action="includes/login.inc.php" method="post">
         <input type="text" name="uid" placeholder="Username/Email...">
         <input type="password" name="pwd" placeholder="Password...">
