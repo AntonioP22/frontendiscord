@@ -65,7 +65,7 @@ header {
 }
 
 .navbar-nav li a:visited {
-    color: purple;
+    color: var(--font-color-);
 }
 
 .navbar-nav li:hover a {
@@ -82,6 +82,7 @@ header {
     position: relative;
     padding: 5%;
     color: var(--font-color-);
+    box-shadow: 3px 3px 15px 1px #000000;
 }
 
 
