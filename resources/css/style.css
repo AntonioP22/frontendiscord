@@ -44,7 +44,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    width: 96%;
+    width: 93%;
 }
 
 .navbar-nav {
@@ -86,6 +86,7 @@ header {
 footer {
     height: 8%;
     display: flex;
+    align-items: center;
     position: absolute;
     bottom: 0;
     justify-content: space-between;
@@ -95,6 +96,5 @@ footer {
 /* image */
 
 embed {
-    width: 100%;
-    height: auto;
+    height: 100%;
 }
