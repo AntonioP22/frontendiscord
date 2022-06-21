@@ -10,11 +10,7 @@ include_once 'header.php';
     <p>If you'd like to contribute please read GitHub's contributing rules and guidelines. Then reach out with either a pull request or username to become a contributor!</p>
 
   </article>
-  <?php
-if (isset($_SESSION['userUid'])) {
-  echo "<p>You are logged in " . $_SESSION["userUid"] . "</p>";
-}
-?>
+  
 </section>
 
 <?php
