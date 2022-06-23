@@ -3,7 +3,7 @@ include_once 'header.php';
 ?>
 <h1>Welcome To The Community Projects Page</h1>
 <section>
-    <p>Post your projects here</p>
+    <h2>Post your projects here</h2>
 </section>
 <section>
     <div class="main-container">
