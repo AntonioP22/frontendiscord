@@ -234,3 +234,7 @@ embed {
 .project8 {
     grid-area: p8;
 }
+
+.main-project-page ul li {
+    list-style-type: none;
+}
