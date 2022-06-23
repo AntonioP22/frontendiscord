@@ -195,9 +195,6 @@ embed {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 'p1 p2''p3 p4''p5 p6''p7 p8';
     gap: 2.5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .intro {

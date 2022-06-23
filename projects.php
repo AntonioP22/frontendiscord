@@ -5,7 +5,7 @@ include_once 'header.php';
 <section>
     <h2>Post your projects here</h2>
 </section>
-
+<section>
     <div class="main-container">
         <div class="intro">
             <ul class="project-list-intro">
@@ -57,7 +57,7 @@ include_once 'header.php';
             </div>
         </div>
     </div>
-
+</section>
 
 <?php
 include_once 'footer.php';
