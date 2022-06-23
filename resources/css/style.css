@@ -183,6 +183,7 @@ embed {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'intro' 'projects';
+    gap: 5vh;
     width: 75%;
     height: 60%;
 }
@@ -193,10 +194,13 @@ embed {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 'p1 p2''p3 p4''p5 p6''p7 p8';
+    gap: 2.5vh;
+    background-color: var(--mid-sect-);
 }
 
 .intro {
     grid-area: intro;
+    background: white;
 }
 
 .project1 {
