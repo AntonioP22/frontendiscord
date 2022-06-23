@@ -215,11 +215,14 @@ embed {
     margin-top: 5vh;
 }
 
+.project-list-intro {
+    text-align: center;
+}
+
 .project-list-intro li {
     list-style-type: none;
     border-radius: 15px;
     width: 80%;
-    text-align: center;
 }
 
 .project1 {
