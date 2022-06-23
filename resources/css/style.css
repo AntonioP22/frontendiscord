@@ -216,7 +216,7 @@ embed {
 }
 
 .intro ul li {
-    list-style-type: circle;
+    list-style-type: none;
     border-radius: 15px;
 }
 

@@ -9,7 +9,7 @@ include_once 'header.php';
     <div class="main-container">
         <div class="intro">
             <ul class="project-list-intro">
-                <li><p>&#9775;</p>This is the place to add your projects.</li>
+                <li>This is the place to add your projects.</li>
                 <li>People can then take a look at them.</li>
                 <li>We will continue to addd to this page.</li>
             </ul>
