@@ -213,6 +213,8 @@ embed {
     height: 200px;
     border-radius: 15px;
     margin-top: 5vh;
+    padding: 0 5vh;
+    line-height: 4;
 }
 
 .project-list-intro {
