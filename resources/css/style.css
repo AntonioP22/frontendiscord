@@ -222,7 +222,8 @@ embed {
 }
 
 .project-list-intro li {
-    list-style-type: none;
+    list-style-type: circle;
+    list-style-position: inside;
     border-radius: 15px;
 }
 
