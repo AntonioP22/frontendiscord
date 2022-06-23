@@ -186,11 +186,13 @@ embed {
 }
 
 .main-container {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'intro' 'projects';
     gap: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .main-project-page {
@@ -205,10 +207,16 @@ embed {
 .intro {
     grid-area: intro;
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 5vh;
 }
 
 .intro ul li {
-    list-style-type: none;
+    list-style-type: circle;
     border-radius: 15px;
 }
 
