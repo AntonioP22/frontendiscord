@@ -191,9 +191,6 @@ embed {
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'intro' 'projects';
     gap: 5vh;
-    width: 75%;
-    height: 60%;
-    display: flex;
 }
 
 .main-project-page {
