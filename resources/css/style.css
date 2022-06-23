@@ -86,12 +86,12 @@ header {
 }
 
 .welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     grid-area: welcome;
     background-color: var(--mid-sect-);
     border-radius: 15px;
-    /* width: 60%; */
-    /* position: relative; */
-    /* padding: 5%; */
     color: var(--font-color-);
 }
 
