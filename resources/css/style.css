@@ -218,6 +218,7 @@ embed {
 .project-list-intro li {
     list-style-type: none;
     border-radius: 15px;
+    width: 80%;
 }
 
 .project1 {
