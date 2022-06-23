@@ -104,8 +104,6 @@ header {
 
 .leaderboard-container {
     grid-area: leaderboard;
-    width: 600px;
-    height: auto;
 }
 
 .row {
