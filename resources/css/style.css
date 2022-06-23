@@ -77,12 +77,12 @@ header {
 
 .large-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 'welcome welcome' 'introduction .' 'rules .';
-    gap: 5vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: '. .''welcome .''introduction .''rules .';
     width: 80%;
     height: 70%;
+    gap: 5vh;
 }
 
 .welcome-section {
