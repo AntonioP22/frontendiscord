@@ -86,7 +86,7 @@ header {
 }
 
 .welcome-section {
-    grid-area: 'welcome';
+    grid-area: welcome;
     background-color: var(--mid-sect-);
     border-radius: 15px;
     /* width: 60%; */
@@ -96,7 +96,7 @@ header {
 }
 
 .introduction-section {
-    grid-area: 'introduction';
+    grid-area: introduction;
 }
 
 
