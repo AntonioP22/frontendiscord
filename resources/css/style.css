@@ -28,10 +28,7 @@ html {
 
 body {
     height: 100vh;
-    background: url('..//images/pexels-merlin-lightpainting-12468514.png');
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: var(--bg-);
     text-align: center;
     display: flex;
     justify-content: center;
