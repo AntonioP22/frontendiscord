@@ -180,9 +180,19 @@ embed {
 
 .main-container {
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'intro' 'projects';
+    width: 75%;
+    height: 60%;
+}
+
+.main-project-page {
+    grid-area: projects;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 'intro intro''p1 p2''p3 p4''p5 p6''p7 p8';
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'p1 p2''p3 p4''p5 p6''p7 p8';
 }
 
 .intro {
