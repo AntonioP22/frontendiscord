@@ -178,6 +178,12 @@ embed {
 
 /* this part is for Footer.php */
 
+.all-around {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .main-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -186,9 +192,6 @@ embed {
     gap: 5vh;
     width: 75%;
     height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-project-page {
