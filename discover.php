@@ -5,7 +5,7 @@
 <section class="about-section">
   <h2>About Our Community</h2>
 </section>
-<div class="welcome-section">
+<div class="ab-section">
   <article>
     <p>Welcome!!!
 This will be a place for all of us beginners and beyond.
