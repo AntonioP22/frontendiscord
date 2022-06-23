@@ -75,13 +75,28 @@ header {
 
 /* main section */
 
-.mid-section {
+.large-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 'welcome welcome' 'introduction .' 'rules .';
+    gap: 5vh;
+    width: 80%;
+    height: 70%;
+}
+
+.welcome-section {
+    grid-area: 'welcome';
     background-color: var(--mid-sect-);
     border-radius: 15px;
-    width: 60%;
-    position: relative;
-    padding: 5%;
+    /* width: 60%; */
+    /* position: relative; */
+    /* padding: 5%; */
     color: var(--font-color-);
+}
+
+.introduction-section {
+    grid-area: 'introduction';
 }
 
 
