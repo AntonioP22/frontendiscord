@@ -78,8 +78,8 @@ header {
 .large-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: '. .''welcome leaderboard''introduction leaderboard''rules .';
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: '. welcome .'' leaderboard leaderboard .''introduction introduction .''rules . .';
     width: 80%;
     height: 70%;
     gap: 5vh;
