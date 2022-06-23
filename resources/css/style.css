@@ -79,7 +79,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: '. .''welcome .''introduction .''rules .';
+    grid-template-areas: '. .''welcome leaderboard''introduction leaderboard''rules .';
     width: 80%;
     height: 70%;
     gap: 5vh;
@@ -103,6 +103,7 @@ header {
 /* leader board */
 
 .leaderboard-container {
+    grid-area: leaderboard;
     width: 600px;
     height: auto;
 }
