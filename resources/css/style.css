@@ -1,166 +1,222 @@
 /* fonts  */
 
 @font-face {
-  font-family: Comic Mono;
-  font-weight: bold;
-  src: url(./ComicMono-Bold.ttf);
+    font-family: Comic Mono;
+    font-weight: bold;
+    src: url(./ComicMono-Bold.ttf);
 }
+
 
 /* root elemets */
 
 * {
-  color: var(--font-color-);
-  font-family: Comic Mono;
-  font-weight: normal;
-  src: url(./ComicMono.ttf);
+    color: var(--font-color-);
+    font-family: Comic Mono;
+    font-weight: normal;
+    src: url(./ComicMono.ttf);
 }
 
 html {
-  font-family: "Comic Mono";
-  --bg-: #eeebdf;
-  --mid-sect-: #d8b6a4;
-  --font-color-: #630000;
+    font-family: "Comic Mono";
+    --bg-: #eeebdf;
+    --mid-sect-: #d8b6a4;
+    --font-color-: #630000;
 }
+
 
 /* main section */
 
 body {
-  height: 100vh;
-  background-color: var(--bg-);
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    height: 100vh;
+    background-color: var(--bg-);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 
 /* header  */
 
 header {
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0.5rem 1rem;
-  width: 97%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    width: 97%;
 }
 
 .navbar-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-nav li {
-  list-style-type: none;
-  padding: 0 5px;
+    list-style-type: none;
+    padding: 0 5px;
 }
 
 .navbar-nav li a {
-  color: blue;
+    color: blue;
 }
 
 .navbar-nav li a:visited {
-  color: var(--font-color-);
+    color: var(--font-color-);
 }
 
 .navbar-nav li:hover a {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 
 /* main section */
 
 .large-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: ". welcome ." "introduction introduction introduction" " leaderboard . ." "rules . .";
-  width: 80%;
-  height: 70%;
-  gap: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: ". welcome .""introduction introduction introduction"" leaderboard . .""rules . .";
+    width: 80%;
+    height: 70%;
+    gap: 5vh;
 }
 
 .welcome-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  grid-area: welcome;
-  background-color: var(--mid-sect-);
-  border-radius: 15px;
-  color: var(--font-color-);
-  padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: welcome;
+    background-color: var(--mid-sect-);
+    border-radius: 15px;
+    color: var(--font-color-);
+    padding: 5px;
 }
 
 .introduction-section {
-  grid-area: introduction;
+    grid-area: introduction;
 }
+
 
 /* leader board */
 
 .leaderboard-container {
-  grid-area: leaderboard;
+    grid-area: leaderboard;
 }
 
 .row {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 40px;
-  border-bottom: 1px solid #afafaf;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #afafaf;
 }
 
 .name {
-  position: relative;
-  display: inline-block;
-  width: 75%;
-  line-height: 45px;
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    line-height: 45px;
 }
 
 .score {
-  position: relative;
-  display: inline-block;
-  width: 25%;
+    position: relative;
+    display: inline-block;
+    width: 25%;
 }
 
+
 /* sign up page */
+
 input {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 button[type="submit"] {
-  width: 100%;
-  background-color: #c95c5e;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+    width: 100%;
+    background-color: #c95c5e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 button[type="submit"]:hover {
-  background-color: #e64e4e;
+    background-color: #e64e4e;
 }
+
+
 /* footer  section */
 
 footer {
-  height: 5%;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  justify-content: space-between;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    justify-content: space-between;
 }
+
 
 /* image */
 
 embed {
-  height: 70%;
+    height: 70%;
+}
+
+
+/* this part is for Footer.php */
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 'intro intro''p1 p2''p3 p4''p5 p6''p7 p8';
+}
+
+.intro {
+    grid-area: intro;
+}
+
+.project1 {
+    grid-area: p1;
+}
+
+.project2 {
+    grid-area: p2;
+}
+
+.project3 {
+    grid-area: p3;
+}
+
+.project4 {
+    grid-area: p4;
+}
+
+.project5 {
+    grid-area: p5;
+}
+
+.project6 {
+    grid-area: p6;
+}
+
+.project7 {
+    grid-area: p7;
+}
+
+.project8 {
+    grid-area: p8;
 }
