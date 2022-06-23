@@ -89,6 +89,7 @@ header {
   background-color: var(--mid-sect-);
   border-radius: 15px;
   color: var(--font-color-);
+  padding: 5px;
 }
 
 .introduction-section {
