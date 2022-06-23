@@ -194,9 +194,6 @@ embed {
     width: 75%;
     height: 60%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .main-project-page {
