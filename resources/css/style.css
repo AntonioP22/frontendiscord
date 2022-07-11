@@ -27,13 +27,9 @@ html {
 /* main section */
 
 body {
-    height: 100vh;
     background-color: var(--bg-);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    margin: 0;
+    padding 0;
 }
 
 
@@ -46,7 +42,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 1rem;
-    width: 97%;
+    width: 100%;
+    z-index: 1;
 }
 
 .navbar-nav {
@@ -76,13 +73,15 @@ header {
 /* main section */
 
 .large-container {
-    display: grid;
+    padding: 1rem;
+    margin-top: 40px;
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: ". welcome .""introduction introduction introduction"" leaderboard . .""rules . .";
     width: 80%;
     height: 70%;
-    gap: 5vh;
+    gap: 5vh; */
 }
 
 .welcome-section {
@@ -160,12 +159,12 @@ button[type="submit"]:hover {
 /* footer  section */
 
 footer {
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
     height: 5%;
-    display: flex;
     align-items: center;
-    position: absolute;
     bottom: 0;
-    justify-content: space-between;
 }
 
 

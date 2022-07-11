@@ -1,7 +1,8 @@
 <?php
     include_once 'header.php';
 ?>
-<section class="sign-up">
+<section class="sign-up" style="margin-top: 50px;
+    padding: 20px;">
     <h1>Enter Sign Up Info</h1>
     <form action="includes/signup.inc.php" method="post">
         <input type="text" name="name" placeholder="Full name...">

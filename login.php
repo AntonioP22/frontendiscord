@@ -1,7 +1,8 @@
 <?php
     include_once 'header.php';
 ?>
-<section>
+<section style="margin-top: 50px;
+    padding: 20px;">
     <h1>Enter Login Info</h1>
     <form action="includes/login.inc.php" method="post">
         <input type="text" name="uid" placeholder="Username/Email...">
