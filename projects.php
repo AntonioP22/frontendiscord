@@ -1,7 +1,8 @@
 <?php
 include_once 'header.php';
 ?>
-<div class="all-around">
+<div class="all-around" style="margin-top: 50px;
+    padding: 20px;">
     <h1>Welcome To The Community Projects Page</h1>
     <section>
         <h2>Post your projects here</h2>

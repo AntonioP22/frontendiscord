@@ -8,7 +8,7 @@ include_once 'header.php';
   </section>
   <div class="introduction-section">
     <article>
-      <p>If you'd like to contribute please read GitHub's contributing rules and guidelines. Then reach out with either a pull request or username to become a contributor!</p>
+      <p style="padding: 10px;">If you'd like to contribute please read GitHub's contributing rules and guidelines. Then reach out with either a pull request or username to become a contributor!</p>
     </article>
   </div>
   <div class="leaderboard-container">

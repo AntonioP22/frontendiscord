@@ -1,7 +1,8 @@
 <?php
     include_once 'header.php';
 ?>
-<div class="l-container">
+<div class="l-container" style="margin-top: 50px;
+    padding: 20px;">
 <section class="about-section">
   <h2>About Our Community</h2>
 </section>
