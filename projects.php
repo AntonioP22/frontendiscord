@@ -18,7 +18,6 @@ include_once 'header.php';
         <div class="main-project-page">
             <div class="project1">
                 <ul>
-                    <img src="resources/Screen Shot 2022-07-13 at 3.28.26 PM.png" alt="project1">
                     <li>Vivian Resources for beginner devs</li>
                 </ul>
             </div>
