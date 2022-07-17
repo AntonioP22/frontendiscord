@@ -18,7 +18,7 @@ include_once 'header.php';
         <div class="main-project-page">
             <div class="project1">
                 <ul>
-                    <li>Vivian Resources for beginner devs</li>
+                    <li>Vivian Resources for beginner devs <a href="resources/Screen Shot 2022-07-13 at 3.28.26 PM.png">image</a></li>
                 </ul>
             </div>
             <div class="project2">
